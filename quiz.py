@@ -30,7 +30,7 @@ def play_again():
    again = input("Press any key to play again or 1 to quit")
    if again == "1":
       print("Hope you enjoyed the game, goodbye!")
-      time.sleep(0.5)
+      time.sleep(0.6)
       print(f"Out of {total_questions} questions,you got {correct_answers} correct answers and {wrong_answers} wrong answers. Well done")
       exit()
    else:
