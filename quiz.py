@@ -38,5 +38,5 @@ def play_again():
 
 name = input("Enter your name: ").title().strip()
 print(f"Hello {name}, you will be playing a capital city game. Your points will be recorded. Good luck!")
-time.sleep(1)
+time.sleep(0.5)
 random_country()
